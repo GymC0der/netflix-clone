@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    cursor: default;
+}
+body{
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(banner.jpg);
+    background-size: 1350px 650px;
+    background-repeat: no-repeat;
+}
+nav{
+   display: flex; 
+   justify-content: space-around;
+   justify-content: center;
+}
+nav .logo img{
+    width: 17%;
+    margin-top: -10px;
+}
+nav .btn{
+    display: flex;
+    margin-top: 10px;
+}
+.btn .eng{
+ margin-inline: 22px;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 2px;
+}
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.btn .sign:hover{
+    cursor: pointer;
+    background-color: rgb(206, 1, 1);
+}
+.text{
+    text-align: center;
+    margin-top: 90px;
+}
+.text h1{
+    font-size: 60px;
+}
+.email{
+    margin-top: 20px;
+}
+.email .addr{
+    width: 30%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+}
+.email .getst{
+    font-size: 19px;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: red;
+}
+.email .getst:hover{
+    cursor: pointer;
+    background-color: rgb(206, 1, 1);
+}
+.trend{
+    margin-top: 6rem;
+    border-top: 2px solid red;
+    border-width: 4px;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;;
+    height: 100%;
+    border-top-left-radius: 55% 55%;
+    border-top-right-radius: 55% 55%;
+}
+.trend h3{
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+.btn2 .ind{
+    margin-left: 10rem;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.btn2 .movie{
+    margin-left: 3rem;
+    margin-inline: 22px;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.row img{
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+}
+.row img:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 35px;
+    margin-top: 30px;
+    height: 320px;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.row::-webkit-scrollbar{
+    display: none;
+    
+}
+
+.box{
+    display: flex;
+    margin-left: 30px;
+}
+.box .first{
+    font-size: 17px;
+    margin-top: 19px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 255px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    padding-inline: 10px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+.box .second{
+    margin-top: 19px;
+    margin-right: 10px;
+    width: 255px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    padding-inline: 10px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+.box .third{
+    margin-top: 19px;
+    margin-right: 20px;
+    width: 250px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    padding-inline: 10px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+.box .fourth{
+    margin-top: 19px;
+    margin-right: 20px;
+    width: 255px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    padding-inline: 10px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+.more{
+    font-size: .8rem;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.faq{
+    margin-top: 100px;
+    margin-left: 22%;
+}
+.faq button{
+    justify-content: space-between;
+    margin-block: 10px;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(58, 57, 57);
+    height: 90px;
+    width: 50rem;
+    font-size: 25px;
+    border: rgb(58, 57, 57);
+    padding-inline: 20px;
+    padding-top: 20px;
+    transition: 0.3s ease-out;
+}
+.faq p{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.faq button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    margin-top: 53px;
+}
+.copy a{
+    text-decoration: none;
+    cursor: text;
+    color: rgb(101, 101, 101);
+    margin-left: 9%;
+}
